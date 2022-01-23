@@ -11,7 +11,7 @@ function NavList() {
       <ul>
         <li>
           <NavLink
-            to="home"
+            to="/"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }

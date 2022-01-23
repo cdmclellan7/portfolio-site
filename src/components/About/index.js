@@ -1,5 +1,3 @@
-import {Link} from "react-router-dom";
-
 function About() {
     return (
       <>
@@ -10,9 +8,6 @@ function About() {
             think?
           </p>
         </main>
-        <nav>
-          <Link to="/">Home</Link>
-        </nav>
       </>
     );
   }
