@@ -29,6 +29,26 @@ function NavList() {
             About
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="projects"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="contact"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            Contact Me
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
