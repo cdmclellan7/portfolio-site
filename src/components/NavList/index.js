@@ -1,19 +1,22 @@
 import { NavLink } from "react-router-dom";
 
+import "./NavList.css";
+
 function NavList() {
   // This styling will be applied to a <NavLink> when the
   // route that it links to is currently selected.
 
-  let activeClassName = "underline";
+  const activeClassName = "active-link";
+  const inactiveClassName = "inactive-link";
 
   return (
-    <nav>
+    <nav className="nav">
       <ul>
         <li>
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? activeClassName : undefined
+              isActive ? activeClassName : inactiveClassName
             }
           >
             Home
@@ -23,7 +26,7 @@ function NavList() {
           <NavLink
             to="about"
             className={({ isActive }) =>
-              isActive ? activeClassName : undefined
+              isActive ? activeClassName : inactiveClassName
             }
           >
             About
@@ -33,7 +36,7 @@ function NavList() {
           <NavLink
             to="projects"
             className={({ isActive }) =>
-              isActive ? activeClassName : undefined
+              isActive ? activeClassName : inactiveClassName
             }
           >
             Projects
@@ -43,7 +46,7 @@ function NavList() {
           <NavLink
             to="contact"
             className={({ isActive }) =>
-              isActive ? activeClassName : undefined
+              isActive ? activeClassName : inactiveClassName
             }
           >
             Contact Me
