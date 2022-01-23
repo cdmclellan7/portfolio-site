@@ -1,7 +1,9 @@
 function Projects() {
     return (
         <>
-            <p>My projects</p>
+            <main>
+                <p>My projects</p>
+            </main>
         </>
     );
 }
