@@ -6,7 +6,10 @@ function Contact() {
     <>
       <main>
         <h1>Contact Me</h1>
-        <a href="https://www.linkedin.com/in/cassandra-mclellan-37b221231/">
+        <a
+          href="https://www.linkedin.com/in/cassandra-mclellan-37b221231/"
+          target="_blank"
+        >
           <img src={linkedinLogo} alt="Linkedin logo"></img>
         </a>
         <a href="https://github.com/cdmclellan7" target="_blank">
