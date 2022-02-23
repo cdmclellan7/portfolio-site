@@ -64,6 +64,7 @@ h2 {
 
 .projects-container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .projects-container > * {
