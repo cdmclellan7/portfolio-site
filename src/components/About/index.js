@@ -21,8 +21,6 @@ function About() {
             and Storybook. To supplement my learning, I am pursuing the AWS
             Cloud Practitioner Certification.
           </p>
-          <p>previous experience</p>
-          <p>closing</p>
         </div>
       </main>
     </>
