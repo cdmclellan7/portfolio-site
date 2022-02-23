@@ -9,10 +9,15 @@ function Contact() {
         <a
           href="https://www.linkedin.com/in/cassandra-mclellan-37b221231/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img src={linkedinLogo} alt="Linkedin logo"></img>
         </a>
-        <a href="https://github.com/cdmclellan7" target="_blank">
+        <a
+          href="https://github.com/cdmclellan7"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={githubLogo} alt="Github logo"></img>
         </a>
       </main>
