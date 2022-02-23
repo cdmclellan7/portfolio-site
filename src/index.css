@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.page-title {
+  color: magenta;
+}
+
 .about-page-container {
   margin: 3rem;
   max-width: 80%;

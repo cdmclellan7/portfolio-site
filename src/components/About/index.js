@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <main>
-        <h2>About Me</h2>
+        <h1 className="page-title">About Me</h1>
         <div className="about-page-container">
           <p>
             I am a full-stack software engineer currently studying with the
