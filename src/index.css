@@ -50,3 +50,7 @@ li {
 .emphasized-text {
   color: magenta;
 }
+
+.social-link {
+  margin: 2rem;
+}
