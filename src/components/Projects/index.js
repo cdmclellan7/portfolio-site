@@ -58,6 +58,7 @@ function Projects() {
             </a>
             <ul>
               <li>HTML / CSS / JS</li>
+              <li>EJS</li>
               <li>Node.js / Express</li>
               <li>Postgres</li>
               <li>Passport.js / bcrypt - user authentication</li>
