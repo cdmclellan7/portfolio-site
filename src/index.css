@@ -12,10 +12,23 @@ code {
     monospace;
 }
 
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: yellow;
+}
+
 p,
 li {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.welcome-p {
+  font-size: 1.5rem;
+  margin: 1.5rem;
 }
 
 .page-title {
@@ -27,9 +40,8 @@ li {
   max-width: 80%;
 }
 
-.about-page-container > h2 {
+h2 {
   color: cyan;
-  line-height: 4rem;
 }
 
 .skills-container {
@@ -53,4 +65,17 @@ li {
 
 .social-link {
   margin: 2rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-container > * {
+  margin: 0 2rem;
+}
+
+.project-title {
+  font-size: 1.3rem;
 }
