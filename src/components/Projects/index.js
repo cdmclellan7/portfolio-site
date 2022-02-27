@@ -24,7 +24,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See on Github
+              See on GitHub
             </a>
             <ul>
               <li>React</li>
@@ -54,7 +54,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See on Github
+              See on GitHub
             </a>
             <ul>
               <li>HTML / CSS / JS</li>
@@ -90,7 +90,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See on Github
+              See on GitHub
             </a>
             <ul>
               <li>HTML / CSS / JS</li>
@@ -113,7 +113,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See on Github
+              See on GitHub
             </a>
             <ul>
               <li>React</li>
@@ -142,7 +142,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See on Github
+              See on GitHub
             </a>
             <ul>
               <li>React</li>
