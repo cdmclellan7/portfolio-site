@@ -71,19 +71,45 @@ function Projects() {
           <div className="project">
             {" "}
             <a
-              href="https://in-the-l00p.netlify.app"
+              href="https://cdmclellan7.github.io/yummy-brummy/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="project-title">In the Loop</p>
+              <p className="project-title">Yummy Brummy</p>
             </a>
             <p>
-              A messaging forum where Schoolf of code bootcampers can ask and
-              answer coding questions. The MVP was made for the School of Code's
-              1-week team project. I am continuing to add functionality.
+              A recipe finding app using the Edamam API. This project was
+              originally a School of Code 1-day hackathon project. I organised a
+              group of bootcampers to maintain this project as an open source
+              project going forward. The main goal was to provide bootcampers a
+              welcoming and supportive introduction to open source contribution
+              on GitHub.
             </p>
             <a
-              href="https://github.com/cdmclellan7/in-the-loop"
+              href="https://github.com/cdmclellan7/yummy-brummy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See on Github
+            </a>
+            <ul>
+              <li>HTML / CSS / JS</li>
+              <li>External API</li>
+              <li>UX/UI Design Planning</li>
+            </ul>
+          </div>
+          <div className="project">
+            {" "}
+            <a
+              href="https://minimalist-blog-design.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="project-title">Minimalist Blog</p>
+            </a>
+            <p>A blog designed with pleasant simplicity in mind.</p>
+            <a
+              href="https://github.com/cdmclellan7/w10_recap-tasks-cdmclellan7"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -91,51 +117,37 @@ function Projects() {
             </a>
             <ul>
               <li>React</li>
-              <li>Node.js / Express</li>
-              <li>Postgres</li>
+              <li>Ant Design</li>
+              <li>CSS Modules</li>
               <li>Auth0 - user authentication</li>
             </ul>
           </div>
           <div className="project">
             {" "}
             <a
-              href="https://in-the-l00p.netlify.app"
+              href="https://lotr-movie-quote-quiz.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="project-title">In the Loop</p>
+              <p className="project-title">
+                Lord of the Rings Movie Quote Quiz
+              </p>
             </a>
             <p>
-              A messaging forum where bootcampers can ask and answer tech
-              questions. The MVP was made for the School of Code's 1-week team
-              project. I am continuing to add functionality.
+              A fun Lord of the Rings movie quote quiz. Test your knowledge by
+              guessing which character said the quote!
             </p>
-            <ul>
-              <li>React</li>
-              <li>Node.js / Express</li>
-              <li>Postgres</li>
-              <li>Auth0 - user authentication</li>
-            </ul>
-          </div>
-          <div className="project">
-            {" "}
             <a
-              href="https://in-the-l00p.netlify.app"
+              href="https://github.com/cdmclellan7/lotr-quote-quiz"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="project-title">In the Loop</p>
+              See on Github
             </a>
-            <p>
-              A messaging forum where bootcampers can ask and answer tech
-              questions. The MVP was made for the School of Code's 1-week team
-              project. I am continuing to add functionality.
-            </p>
             <ul>
               <li>React</li>
-              <li>Node.js / Express</li>
-              <li>Postgres</li>
-              <li>Auth0 - user authentication</li>
+              <li>External API</li>
+              <li>Fetch request with API Bearer Token</li>
             </ul>
           </div>
         </div>
