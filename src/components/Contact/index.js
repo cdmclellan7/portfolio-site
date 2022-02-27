@@ -8,7 +8,7 @@ function Contact() {
         <h1 className="page-title">Contact Me</h1>
         <a
           className="social-link"
-          href="https://www.linkedin.com/in/cassandra-mclellan-37b221231/"
+          href="https://www.linkedin.com/in/cdmclellan7/"
           target="_blank"
           rel="noopener noreferrer"
         >
