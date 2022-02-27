@@ -38,6 +38,7 @@ function About() {
               <li>Jest</li>
               <li>Auth0</li>
               <li>Passport.js</li>
+              <li>D3.js</li>
               <li>Netlify</li>
               <li>Heroku</li>
             </ul>
